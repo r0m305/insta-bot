@@ -2,6 +2,7 @@
 ┃┃┗┫┗━┓ ┃ ┣━┫┣┻┓┃ ┃ ┃
 ╹╹ ╹┗━┛ ╹ ╹ ╹┗━┛┗━┛ ╹ 
 By r0m305
+This project requires python3.8, otherwise it wont work
 
 The original project was a python script, which i thereafter converted to a C script with cython as follows:
   cython -3 --embedd -o instabot.c Instabot.py
